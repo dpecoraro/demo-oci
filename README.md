@@ -18,15 +18,8 @@ Ao terminar, você terá:
 - A API deste repositório rodando como serviço na porta `3000`.
 - Nginx recebendo HTTP na porta `80` e encaminhando a requisição para a API.
 
-```text
-Navegador ou curl
-      │ HTTP :80
-      ▼
-IP público → VNIC → Security List/NSG → firewalld → Nginx
-                                                        │ proxy local :3000
-                                                        ▼
-                                                 API Node.js
-```
+<img width="681" height="404" alt="image" src="https://github.com/user-attachments/assets/5fe25bad-7e9f-46b9-a71f-789d94bfcb10" />
+
 
 ## Antes de começar
 
